@@ -23,7 +23,7 @@ import * as Y from 'yjs'
 export function useYjsStore({
 	roomId = 'example',
 	hostUrl = import.meta.env.MODE === 'development'
-		? 'ws://localhost:1234'
+		? 'ws:https://white-board-io.vercel.app/'
 		: 'wss://demos.yjs.dev',
 	shapeUtils = [],
 }: Partial<{
